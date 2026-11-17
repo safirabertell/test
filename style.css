@@ -1,4 +1,8 @@
+@font-face {
+    font-family: MittTypsnitt;
+    src: url('fonts/Showtime.ttf')format('truetype');
+}
 body {background-color: antiquewhite; text-align: center;}
-.top-header {background-color: burlywood; text-align: center; padding: 25px 15px;max-width: 600px; margin: 20px auto; border-radius: 12px;}
+.top-header {background-color: burlywood; text-align: center; padding: 25px 15px;max-width: 600px; margin: 20px auto; border-radius: 12px;font-family: 'MittTypsnitt', sans-serif;}
 .center-box {text-align: center; margin-top: 20px;}
 .source-text {font-size: 12px; color: #555555; margin-top: 6px;}
