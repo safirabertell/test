@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'MittTypsnitt';
-    src: url('Tox\ Typewriter.ttf') format('truetype');
+    src: url('Tox Typewriter.ttf') format('truetype');
 }
 body {background-color: antiquewhite; text-align: center;}
 .top-header {background-color: burlywood; text-align: center; padding: 25px 15px;max-width: 600px; margin: 20px auto; border-radius: 12px;font-family: 'MittTypsnitt', sans-serif;}
