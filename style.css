@@ -13,6 +13,8 @@ figcaption, .source-text {font-size: 12px; color: #555555; margin-top: 6px; padd
 .menu {display: flex; justify-content: center; gap: 60px; margin-top: 15px;}
 .menu a {text-decoration: none; color: #2b1d16; font-weight: bold; font-size: 18px;}
 .menu a:hover {text-decoration: underline;}
-.tips-container {max-width: 800px; margin: 30px; padding: 0 15px;}
-.tips-kort {display: flex; gap: 20px; align-items: center; background-color: rgb(111, 2, 2); padding: 20px; margin-bottom: 35px; 12px;}
-.tips-kort img {width: 240px; height: 170px; object-fit: cover; border-radius: 8px; flex-shrink: o;}
+.tips-container {max-width: 1100px; margin: 40px auto; padding: 0 20px;}
+.tips-kort {display: flex; gap: 30px; align-items: center; background-color: rgb(111, 2, 2); padding: 30px; margin-bottom: 35px; 12px;}
+.tips-kort img {width: 360px; height: 250px; object-fit: cover; border-radius: 8px; flex-shrink: o;}
+.tips-kort h3 {font-size: 26px; margin-top: 0; margin-bottom: 10px;}
+.tips-kort p {font-size: 18px; margin: 0;}
