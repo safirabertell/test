@@ -2,8 +2,9 @@
     font-family: 'MittTypsnitt';
     src: url('fonts/Tox Typewriter.ttf') format('truetype');
 }
-body {background-color: antiquewhite; text-align: center;}
-.top-header {background-color: burlywood; text-align: center; padding: 25px 15px; width: 100%; margin: 20px auto; border-radius: 12px;font-family: 'MittTypsnitt', sans-serif;}
+body {background-color: antiquewhite; text-align: center; margin: 0;}
+.top-header {background-color: burlywood; text-align: center; padding: 25px 15px; box-sizing: border-box; width: 100%; margin: 20px 0; border-radius: 12px;font-family: 'MittTypsnitt', sans-serif;}
 .top-header h1 {font-family: 'MittTypsnitt', sans-serif;}
-.center-box {text-align: center; margin-top: 20px;}
+.center-box {text-align: center; margin-top: 20px; width: 100%;}
+.center-box img {width: 100%; height: auto; display: block;}
 .source-text {font-size: 12px; color: #555555; margin-top: 6px;}
