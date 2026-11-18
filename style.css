@@ -4,6 +4,7 @@
 }
 body {background-color: rgb(240, 246, 153); text-align: left; margin: 0; font-family: Arial, Helvetica, sans-serif;}
 .top-header {background-color: rgb(186, 20, 81); text-align: center; padding: 25px 15px; box-sizing: border-box; width: 100%; margin: 20px 0; border-radius: 12px;font-family: 'MittTypsnitt', sans-serif;}
+.header-mitten {grid-column: 2; text-align: center; padding-top: 10px;}
 .top-header h1 {font-family: 'MittTypsnitt', sans-serif;font-size: 50px;}
 h2, h3, .menu {font-family: Arial, Helvetica, sans-serif;}
 .center-box {margin-top: 20px; width: 100%;}
