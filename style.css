@@ -3,14 +3,16 @@
     src: url('fonts/Tox Typewriter.ttf') format('truetype');
 }
 body {background-color: rgb(240, 246, 153); text-align: left; margin: 0; font-family: Arial, Helvetica, sans-serif;}
-.top-header {background-color: rgb(186, 20, 81); text-align: center; padding: 25px 15px; box-sizing: border-box; width: 100%; margin: 20px 0; border-radius: 12px;font-family: 'MittTypsnitt', sans-serif;}
-.header-mitten {grid-column: 2; text-align: center; padding-top: 10px;}
+.top-header {background-color: rgb(186, 20, 81); padding: 25px 30px; box-sizing: border-box; width: 100%; margin: 20px 0; border-radius: 12px;font-family: 'MittTypsnitt', sans-serif; display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 20px;}
+.slump-sektion {grid-column: 1; text-align: left; font-family: Arial, Helvetica, sans-serif;}
+.header-mitten, .top-header > h1, .top-header > .menu {grid-column: 2; text-align: center;}
 .top-header h1 {font-family: 'MittTypsnitt', sans-serif;font-size: 50px;}
 h2, h3, .menu {font-family: Arial, Helvetica, sans-serif;}
 .center-box {margin-top: 20px; width: 100%;}
 .center-box figure {margin: 0; width: 100%;}
 .center-box img {width: 100%; height: auto; display: block;}
-figcaption, .source-text, .bildkalla, .historiskahem {font-size: 12px; color: #555555; margin-top: 6px; padding-left: 15px; text-align: left;}
+figcaption, .source-text, .bildkalla, .historiskahem {font-size: 12px !important; color: #555555; margin-top: 6px; padding-left: 5px; text-align: left;}
+.bildpaket {display: flex; flex-direction: column; flex-shrink: 0;}
 .menu {display: flex; justify-content: center; gap: 60px; margin-top: 15px;}
 .menu a {text-decoration: none; color: #2b1d16; font-weight: bold; font-size: 18px;}
 .menu a:hover {text-decoration: underline;}
@@ -21,6 +23,6 @@ figcaption, .source-text, .bildkalla, .historiskahem {font-size: 12px; color: #5
 .tips-kort p {font-size: 18px; margin: 0;}
 .slump-ruta {background-color: rgb(255, 255, 197); max-width: 700px; margin: 40px auto; padding: 30px; border-radius: 12px; text-align: left; border: 2px solid rgb(186, 20, 81);}
 .slump-ruta h2 {margin-top: 0; color: #2b1d16;}
-#slumpKnapp {background-color: rgb(186, 20, 81); color: white; font-size: 18px; font-weight: bold; padding: 14px 28px; border: none; border-radius: 8px; cursor: pointer; transition: transform 0.1s ease, background-color 0.2s ease;}
-#slumpKnapp:hover {background-color: rgb(150, 15, 65); transform: scale(1.03);}
-#resultatText {font-size: 20px; font-weight: bold; color: #2b1d16; margin-top: 20px; margin-bottom: 0; min-height: 28px;}
+#slumpKnapp {background-color: rgb(255, 255, 197); color: #2b1d16; font-size: 15px; font-weight: bold; padding: 10px 18px; border: none; border-radius: 8px; cursor: pointer; transition: transform 0.1s ease, background-color 0.2s ease;}
+#slumpKnapp:hover {background-color: rgb(240, 246, 153); transform: scale(1.03);}
+#resultatText {font-size: 14px; font-weight: bold; color: rgb(255, 255, 197); margin-top: 10px; margin-bottom: 0; max-width: 260px;}
