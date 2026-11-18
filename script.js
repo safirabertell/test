@@ -7,6 +7,6 @@ const tipsLista= [
 const knapp = document.getElementById("slumpKnapp");
 const text = document.getElementById("resultatText");
 knapp.addEventListener("click", function() {
-    const slumpIndex = Math.floor(matchMedia.random() * tipsLista.length);
+    const slumpIndex = Math.floor(Math.random() * tipsLista.length);
     text.textContent = tipsLista [slumpIndex];
 });
