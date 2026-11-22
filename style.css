@@ -3,7 +3,7 @@
     src: url('fonts/Tox Typewriter.ttf') format('truetype');
 }
 body {background-color: #f0f699; text-align: left; margin: 0; font-family: Arial, Helvetica, sans-serif;}
-.top-header {background-color: rgb(186, 20, 81); padding: 25px 30px; box-sizing: border-box; width: 100%; margin: 20px 0; border-radius: 12px;font-family: 'MittTypsnitt', sans-serif; display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 20px;}
+.top-header {background-color: rgb(251, 66, 134); padding: 25px 30px; box-sizing: border-box; width: 100%; margin: 20px 0; border-radius: 12px;font-family: 'MittTypsnitt', sans-serif; display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 20px;}
 .slump-sektion {grid-column: 1; text-align: left; font-family: Arial, Helvetica, sans-serif;}
 .header-mitten, .top-header > h1, .top-header > .menu {grid-column: 2; text-align: center;}
 .top-header h1 {font-family: 'MittTypsnitt', sans-serif;font-size: 50px;}
