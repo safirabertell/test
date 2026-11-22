@@ -2,7 +2,7 @@
     font-family: 'MittTypsnitt';
     src: url('fonts/Tox Typewriter.ttf') format('truetype');
 }
-body {background-color: rgb(240, 246, 153); text-align: left; margin: 0; font-family: Arial, Helvetica, sans-serif;}
+body {background-color: #f0f699; text-align: left; margin: 0; font-family: Arial, Helvetica, sans-serif;}
 .top-header {background-color: rgb(186, 20, 81); padding: 25px 30px; box-sizing: border-box; width: 100%; margin: 20px 0; border-radius: 12px;font-family: 'MittTypsnitt', sans-serif; display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 20px;}
 .slump-sektion {grid-column: 1; text-align: left; font-family: Arial, Helvetica, sans-serif;}
 .header-mitten, .top-header > h1, .top-header > .menu {grid-column: 2; text-align: center;}
@@ -26,3 +26,4 @@ figcaption, .source-text, .bildkalla, .historiskahem {font-size: 12px !important
 #slumpKnapp {background-color: rgb(255, 255, 197); color: #2b1d16; font-size: 15px; font-weight: bold; padding: 10px 18px; border: none; border-radius: 8px; cursor: pointer; transition: transform 0.1s ease, background-color 0.2s ease;}
 #slumpKnapp:hover {background-color: rgb(240, 246, 153); transform: scale(1.03);}
 #resultatText {font-size: 14px; font-weight: bold; color: rgb(255, 255, 197); margin-top: 10px; margin-bottom: 0; max-width: 260px;}
+@media (max-width: 768px) {.top-header { displa: flex; flex-direction: column; padding: 20px 15px; margin: 10px; gap: 15px;} .slump-sektion {text-align: center; order: 2;} #resultatText {max-width: 100%;} .top-header h1 { font-size: 32px; margin: 0: } .menu {gap: 20px; flex-wrap: wrap;} .tips-kort {flex-direction: column; padding: 20px; gap: 15px;} .tips-kort img {width: 100%; height: auto; max-height: 250px; } .tips-kort h3 {font-size: 22px; } tips-kort p { font-size: 16px; } .slump-ruta {margin: 20px 15px; padding: 20px; }  }
