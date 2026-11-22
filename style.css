@@ -124,3 +124,8 @@ figcaption, .source-text, .bildkalla, .historiskahem {font-size: 12px !important
     max-width: 260px;}
 /* Mobilanpassning */
 @media (max-width: 768px) {.top-header { display: flex; flex-direction: column; padding: 20px 15px; margin: 10px; gap: 15px;} .slump-sektion {text-align: center; order: 2;} #resultatText {max-width: 100%;} .top-header h1 { font-size: 32px; margin: 0; } .menu {gap: 20px; flex-wrap: wrap;} .tips-kort {flex-direction: column; padding: 20px; gap: 15px;} .tips-kort img {width: 100%; height: auto; max-height: 250px; } .tips-kort h3 {font-size: 22px; } .tips-kort p { font-size: 16px; } .slump-ruta {margin: 20px 15px; padding: 20px; }  }
+/* För ökad tillgänlgihet */
+.menu a:hover, 
+.menu a:focus-visible {text-decoration: underline; outline: 3px solid #2b1d16; outline-offset: 4px; border-radius: 4px;}
+#slumpKnapp:hover,
+#slumpKnapp:focus-visible {background-color: rgb(240, 246, 153); transform: scale(1.03); outline: 3px solid #2b1d16; outline-offset: 3px;}
