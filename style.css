@@ -1,29 +1,126 @@
+/* Mitt importerade valda typsnitt för rubrik */
 @font-face {
     font-family: 'MittTypsnitt';
     src: url('fonts/Tox Typewriter.ttf') format('truetype');
 }
-body {background-color: #f0f699; text-align: left; margin: 0; font-family: Arial, Helvetica, sans-serif;}
-.top-header {background-color: rgb(251, 66, 134); padding: 25px 30px; box-sizing: border-box; width: 100%; margin: 20px 0; border-radius: 12px;font-family: 'MittTypsnitt', sans-serif; display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 20px;}
-.slump-sektion {grid-column: 1; text-align: left; font-family: Arial, Helvetica, sans-serif;}
-.header-mitten, .top-header > h1, .top-header > .menu {grid-column: 2; text-align: center;}
-.top-header h1 {font-family: 'MittTypsnitt', sans-serif;font-size: 50px;}
+/* Min valda färg för hemsidan samt textens plats + font */
+body {background-color: #f0f699; 
+    text-align: left; 
+    margin: 0; 
+    font-family: Arial, Helvetica, sans-serif;}
+/* Min header på hemsidan */
+.top-header {background-color: rgb(251, 66, 134); 
+    padding: 25px 30px; 
+    box-sizing: border-box; 
+    width: 100%; 
+    margin: 20px 0; 
+    border-radius: 12px;
+    font-family: 'MittTypsnitt', sans-serif; 
+    display: grid; 
+    grid-template-columns: 1fr auto 1fr; 
+    align-items: center; 
+    gap: 20px;}
+/* Min slumpknapps plats */
+.slump-sektion {grid-column: 1; 
+    text-align: left; 
+    font-family: Arial, Helvetica, sans-serif;}
+/* Centrerar huvudrubriken och menyn */
+.header-mitten, 
+.top-header > h1, 
+.top-header > .menu {grid-column: 2; 
+    text-align: center;}
+/* Storlek, typsnitt huvudrubriken i headern */
+.top-header h1 {font-family: 'MittTypsnitt', sans-serif;
+    font-size: 50px;}
+/* Typsnitt för mina underrubriker och menylänkar */
 h2, h3, .menu {font-family: Arial, Helvetica, sans-serif;}
-.center-box {margin-top: 20px; width: 100%;}
-.center-box figure {margin: 0; width: 100%;}
-.center-box img {width: 100%; height: auto; display: block;}
-figcaption, .source-text, .bildkalla, .historiskahem {font-size: 12px !important; color: #555555; margin-top: 6px; padding-left: 5px; text-align: left;}
-.bildpaket {display: flex; flex-direction: column; flex-shrink: 0;}
-.menu {display: flex; justify-content: center; gap: 60px; margin-top: 15px;}
-.menu a {text-decoration: none; color: #2b1d16; font-weight: bold; font-size: 18px;}
+/* Där startsidans bild är */
+.center-box {margin-top: 20px; 
+    width: 100%;}
+/* Nollställer standardmarginaler runt figure-elementet */
+.center-box figure {margin: 0; 
+    width: 100%;}
+/* Gör att bilden på startsidan fyller hela bredden */
+.center-box img {width: 100%; 
+    height: auto; 
+    display: block;}
+/* Valt utseende små bildkällor och bildtexter under foton */
+figcaption, .source-text, .bildkalla, .historiskahem {font-size: 12px !important; 
+    color: #555555; 
+    margin-top: 6px; 
+    padding-left: 5px; 
+    text-align: left;}
+/* Håller ihop bild och bildkälla, tips-kort */
+.bildpaket {display: flex; 
+    flex-direction: column; 
+    flex-shrink: 0;}
+/* Färg och stilval, länkar meny */
+.menu {display: flex; 
+    justify-content: center; 
+    gap: 60px; 
+    margin-top: 15px;}
+/* Understrykning när man håller muspekare över menyval */
+.menu a {text-decoration: none; 
+    color: #2b1d16; 
+    font-weight: bold; 
+    font-size: 18px;}
 .menu a:hover {text-decoration: underline;}
-.tips-container {max-width: 1100px; margin: 40px auto; padding: 0 20px;}
-.tips-kort {display: flex; gap: 30px; align-items: center; background-color: rgb(255, 255, 197); padding: 30px; margin-bottom: 35px; border-radius: 12px;}
-.tips-kort img {width: 360px; height: 250px; object-fit: cover; border-radius: 8px; flex-shrink: 0;}
-.tips-kort h3 {font-size: 26px; margin-top: 0; margin-bottom: 10px;}
-.tips-kort p {font-size: 18px; margin: 0;}
-.slump-ruta {background-color: rgb(255, 255, 197); max-width: 700px; margin: 40px auto; padding: 30px; border-radius: 12px; text-align: left; border: 2px solid rgb(186, 20, 81);}
-.slump-ruta h2 {margin-top: 0; color: #2b1d16;}
-#slumpKnapp {background-color: rgb(255, 255, 197); color: #2b1d16; font-size: 15px; font-weight: bold; padding: 10px 18px; border: none; border-radius: 8px; cursor: pointer; transition: transform 0.1s ease, background-color 0.2s ease;}
-#slumpKnapp:hover {background-color: rgb(240, 246, 153); transform: scale(1.03);}
-#resultatText {font-size: 14px; font-weight: bold; color: rgb(255, 255, 197); margin-top: 10px; margin-bottom: 0; max-width: 260px;}
+/* Centrerar tipskort till undersidorna */
+.tips-container {max-width: 1100px; 
+    margin: 40px auto; 
+    padding: 0 20px;}
+/* Design och layout tipskort */
+.tips-kort {display: flex; 
+    gap: 30px; 
+    align-items: center; 
+    background-color: rgb(255, 255, 197); 
+    padding: 30px; 
+    margin-bottom: 35px; 
+    border-radius: 12px;}
+/* Fast storlek, beskärning av bilder till tipskort */
+.tips-kort img {width: 360px; 
+    height: 250px; 
+    object-fit: cover; 
+    border-radius: 8px; 
+    flex-shrink: 0;}
+/* Rubrikstorlek i tips-kort */
+.tips-kort h3 {font-size: 26px; 
+    margin-top: 0; 
+    margin-bottom: 10px;}
+/* Textstorlek adress varje tips-kort */
+.tips-kort p {font-size: 18px; 
+    margin: 0;}
+/* Rutan för slumpgeneratorn, alltså tips-knappen */
+.slump-ruta {background-color: rgb(255, 255, 197); 
+    max-width: 700px; 
+    margin: 40px auto; 
+    padding: 30px; 
+    border-radius: 12px; 
+    text-align: left; 
+    border: 2px solid rgb(186, 20, 81);}
+/* Rubrik inuti tips-rutan */
+.slump-ruta h2 {margin-top: 0; 
+    color: #2b1d16;}
+/* Utseende samt animation för tipsknappen */
+#slumpKnapp {background-color: rgb(255, 255, 197); 
+    color: #2b1d16; 
+    font-size: 15px; 
+    font-weight: bold; 
+    padding: 10px 18px; 
+    border: none; 
+    border-radius: 8px; 
+    cursor: pointer; 
+    transition: transform 0.1s ease, 
+    background-color 0.2s ease;}
+/* Färgbyte och lätt förstoring när man hovrar över själva knappen */
+#slumpKnapp:hover {background-color: rgb(240, 246, 153); 
+    transform: scale(1.03);}
+/* Text som visar resultat för det slumpade tipset */
+#resultatText {font-size: 14px; 
+    font-weight: bold; 
+    color: rgb(255, 255, 197); 
+    margin-top: 10px; 
+    margin-bottom: 0; 
+    max-width: 260px;}
+/* Mobilanpassning */
 @media (max-width: 768px) {.top-header { display: flex; flex-direction: column; padding: 20px 15px; margin: 10px; gap: 15px;} .slump-sektion {text-align: center; order: 2;} #resultatText {max-width: 100%;} .top-header h1 { font-size: 32px; margin: 0; } .menu {gap: 20px; flex-wrap: wrap;} .tips-kort {flex-direction: column; padding: 20px; gap: 15px;} .tips-kort img {width: 100%; height: auto; max-height: 250px; } .tips-kort h3 {font-size: 22px; } .tips-kort p { font-size: 16px; } .slump-ruta {margin: 20px 15px; padding: 20px; }  }
