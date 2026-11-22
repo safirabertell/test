@@ -117,8 +117,9 @@ figcaption, .source-text, .bildkalla, .historiskahem {font-size: 12px !important
     transform: scale(1.03);}
 /* Text som visar resultat för det slumpade tipset */
 #resultatText {font-size: 14px; 
-    font-weight: bold; 
-    color: rgb(255, 255, 197); 
+    font-weight: bold;
+    color: #2b1d16; 
+    background-color: rgb(255, 255, 197); 
     margin-top: 10px; 
     margin-bottom: 0; 
     max-width: 260px;}
