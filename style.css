@@ -46,7 +46,7 @@ h2, h3, .menu {font-family: Arial, Helvetica, sans-serif;}
     display: block;}
 /* Valt utseende små bildkällor och bildtexter under foton */
 figcaption, .source-text, .bildkalla, .historiskahem {font-size: 12px !important; 
-    color: #555555; 
+    color: #2b1d16; 
     margin-top: 6px; 
     padding-left: 5px; 
     text-align: left;}
